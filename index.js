@@ -7,6 +7,7 @@ let massEl = document.getElementById("mass-el")
 converBtn.addEventListener("click", function(){
    getLength()
    getVolume()
+   getMass()
 })
 
 function getLength(){
@@ -19,6 +20,12 @@ function getVolume(){
     gallons = inputEl.value * 0.264
     Liters = inputEl.value * 3.785
     volomeEl.textContent = `${inputEl.value} liters = ${gallons} liters | ${inputEl.value} gallon = ${Liters} gallon`
+}
+
+function getMass(){
+    pound = inputEl.value * 2.204
+    kilo = inputEl.value * 0.454
+    massEl.textContent = `${inputEl.value} kilos = ${pound.toFixed(2)} pound | ${inputEl.value} pounds = ${kilo} kilos`
 }
 
 console.log(getLength())
