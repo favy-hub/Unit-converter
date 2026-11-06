@@ -1,0 +1,44 @@
+body {
+    background: #111827;
+    color: #DDD6FE;
+    
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+.hero {
+    background: #6943FF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.hero input {
+    width: 90px;
+    background: #6943FF;
+    color: #DDD6FE;
+    font-size: 50px;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.hero button {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 5px black;
+}
+.main {
+    background:#1F2937;
+    text-align: center;
+    padding: 10px;
+}
+.section {
+    background: #273549;
+    margin: 20px;
+    padding: 20px;
+}
